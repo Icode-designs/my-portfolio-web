@@ -1,5 +1,6 @@
 @use "sass:color";
 @use "./config" as config;
+@use "./menu";
 
 * {
   box-sizing: border-box;
