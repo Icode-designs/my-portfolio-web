@@ -1,0 +1,15 @@
+{
+  "name": "my-new-portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" hello",
+    "sass": "sass -w scss:dist/css"
+  },
+  "author": "Bonaventure",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.81.0"
+  }
+}
