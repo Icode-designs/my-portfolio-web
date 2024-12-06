@@ -14,7 +14,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: config.set-text-color(config.$primary-color);
     @include config.easeOut;
   }
 
@@ -45,7 +45,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.955;
   visibility: hidden;
 
   &.show {
@@ -89,9 +88,13 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg");
       border-radius: 50%;
       border: solid 3px config.$secondary-color;
+      img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 50%;
+      }
     }
   }
 
@@ -115,7 +118,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: config.set-text-color(config.$primary-color);
     text-decoration: none;
     @include config.easeOut;
 
