@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" hello",
-    "sass": "sass -w scss:dist/css"
+    "sass": "sass -w scss:css"
   },
   "author": "Bonaventure",
   "license": "ISC",
