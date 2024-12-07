@@ -368,7 +368,7 @@ main#home h1 {
   #home .lg-heading,
   #contact .lg-heading {
     font-size: 4rem;
-    margin-top: 10vh;
+    margin-top: 20vh;
   }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
