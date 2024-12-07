@@ -65,8 +65,8 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding .portrait {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -329,16 +329,16 @@ main#home h1 {
 }
 @media screen and (max-width: 768px) {
   main {
+    padding: 2rem;
     align-items: center;
     text-align: center;
   }
   main .lg-heading {
-    line-height: 1;
     margin-bottom: 1rem;
-    font-size: 10rem;
+    font-size: 1rem;
   }
   main .lg-heading span {
-    word-break: break-all;
+    word-break: keep-all;
   }
   ul.menu-nav,
   div.menu-branding {
@@ -380,6 +380,16 @@ main#home h1 {
   .boxes div {
     font-size: 1.5rem;
     padding: 1rem;
+  }
+  .bio-image {
+    width: 70%;
+  }
+  .bio {
+    max-height: 40vh;
+    overflow: scroll;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #eece1a;
+    scroll-behavior: smooth;
   }
 }
 @media screen and (max-width: 500px) {

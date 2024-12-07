@@ -229,14 +229,14 @@ main {
 //tablets & small laptops
 @include config.mediaMd {
   main {
+    padding: 2rem;
     align-items: center;
     text-align: center;
     .lg-heading {
-      line-height: 1;
       margin-bottom: 1rem;
-      font-size: 10rem;
+      font-size: 1rem;
       span {
-        word-break: break-all;
+        word-break: keep-all;
       }
     }
   }
@@ -295,6 +295,18 @@ main {
       font-size: 1.5rem;
       padding: 1rem;
     }
+  }
+
+  .bio-image {
+    width: 70%;
+  }
+
+  .bio {
+    max-height: 40vh;
+    overflow: scroll;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid config.$secondary-color;
+    scroll-behavior: smooth;
   }
 }
 
